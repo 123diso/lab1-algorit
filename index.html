@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab 2</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="CompComent.js"></script>
+    <script src="index.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", async () => {
+            const response = await fetch("infoComent.json");
+            const info = await response.json();
+            const contenedor = document.getElementById("ContCard");
+
+            info.forEach(item => {
+                const card = document.createElement("coment-tcard");
+                card.setAttribute("categoria", item.categoria);
+                card.setAttribute("titulo", item.titulo);
+                card.setAttribute("autor", item.autor);
+                card.setAttribute("fecha", item.fecha);
+                card.setAttribute("avatar", item.avatar);
+
+
+                const spanDesc = document.createElement("span");
+
+                spanDesc.setAttribute("slot", "descripcion");
+                spanDesc.textContent = item.descripcion;
+                card.appendChild(spanDesc);
+
+                contenedor.appendChild(card);
+            });
+        });
+    </script>
+  
+</head> 
+<body style="background: #000; color: #fff;">
+    <div class="main-container">
+        <h2 class="sec-titulo">
+            Latest
+        </h2>
+         <main class="cards-grid" id="ContCard"></main>
+    </div>
+    
+   <footer class="site-footer">
+</body>
+</html>0

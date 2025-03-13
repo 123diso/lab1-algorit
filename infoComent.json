@@ -1,0 +1,84 @@
+[
+    {
+      "categoria": "Engineering",
+      "titulo": "The future of AI in software engineering",
+      "descripcion": "Artificial intelligence is revolutionizing software engineering. Explore how AI-driven tools are enhancing development processes and improving software...",
+      "fecha": "July 14, 2021",
+      "autor": "Remy Sharp,Travis Howard ",
+      "avatar": "https://mui.com/static/images/avatar/4.jpg"
+    },
+    {
+      "categoria": "Product",
+      "titulo": "Driving growth with user-centric product design",
+      "descripcion": "Our user-centric product design approach is driving significant growth. Learn about the strategies we employ to create products that resonate with users.",
+      "autor": "Erica Johns",
+      "fecha": "July 14, 2021",
+      "avatar": "https://mui.com/static/images/avatar/6.jpg"
+    },
+    {
+        "categoria": "Design",
+        "titulo": "Embracing minimalism in modern design",
+        "descripcion": "Minimalism is a key trend in modern design. Discover how our design team incorporates minimalist principles to create clean and impactful user experience.",
+        "autor": "Kate Morrison",
+        "fecha": "July 14, 2021",
+        "avatar": "https://mui.com/static/images/avatar/7.jpg"
+      },
+      {
+        "categoria": "Company",
+        "titulo": "Cultivating a culture of innovation",
+        "descripcion": "Innovation is at the heart of our company culture. Learn about the initiatives we have in place to foster creativity and drive groundbreaking solutions.",
+        "autor": "Cindy Baker",
+        "fecha": "July 14, 2021",
+        "avatar": "https://mui.com/static/images/avatar/3.jpg"
+      },
+      {
+        "categoria": "Engineering",
+        "titulo": "Advancing cybersecurity with next-gen solutions",
+        "descripcion": "Our next-generation cybersecurity solutions are setting new standards in the industry. Discover how we protect our clients from evolving cyber threats.",
+        "fecha": "July 14, 2021",
+        "autor": "Agnes Walker, Trevor Henderson",
+        "avatar": "https://mui.com/static/images/avatar/4.jpg"
+       
+      },
+      {
+        "categoria": "Product",
+        "titulo": "Maximizing efficiency with our latest product updates",
+        "descripcion": "Our recent product updates are designed to help you maximize efficiency and achieve more. Get a detailed overview of the new features and improvements that...",
+        "autor": "Travis Howard",
+        "fecha": "July 14, 2021",
+        "avatar": "https://mui.com/static/images/avatar/2.jpg"
+      },
+      {
+        "categoria": "Engineering",
+        "titulo": "Pioneering sustainable engineering solutions",
+        "descripcion": "Learn about our commitment to sustainability and the innovative engineering solutions we're implementing to create a greener future. Discover the impact of...",
+        "fecha": "July 14, 2021",
+        "autor": "Agnes Walker, Trevor Henderson",
+        "avatar": "https://mui.com/static/images/avatar/4.jpg"
+      },
+      {
+        "categoria": "Product",
+        "titulo": "Maximizing efficiency with our latest product updates",
+        "descripcion": "Our recent product updates are designed to help you maximize efficiency and achieve more. Get a detailed overview of the new features and improvements that...",
+        "autor": "Travis Howard",
+        "fecha": "July 14, 2021",
+        "avatar": "https://mui.com/static/images/avatar/2.jpg"
+      },
+      {
+        "categoria": "Design",
+        "titulo": "Designing for the future: trends and insights",
+        "descripcion": "Stay ahead of the curve with the latest design trends and insights. Our design team shares their expertise on creating intuitive and visually stunning user...",
+        "autor": "Kate Morrison",
+        "fecha": "July 14, 2021",
+        "avatar": "https://mui.com/static/images/avatar/7.jpg"
+      },
+      {
+        "categoria": "Company",
+        "titulo": "Our company's journey: milestones and achievements",
+        "descripcion": "Take a look at our company's journey and the milestones we've achieved along the way. From humble beginnings to industry leader, discover our story of growth and success...",
+        "autor": "Cindy Baker",
+        "fecha": "July 14, 2021",
+        "avatar": "https://mui.com/static/images/avatar/3.jpg"
+      }
+  ]
+  
