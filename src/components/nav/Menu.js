@@ -17,14 +17,15 @@ class MenuComponent extends HTMLElement {
             </ul>
             <div class="actions">
                     <input type="text" class="search" placeholder="Search...">
-                    <button class="sign-in">Sign in</button>
+                    <i class="fa-solid fa-wifi"></i>
+
             </div>
         </div>
         `;
 
         const linkElement = document.createElement("link");
         linkElement.setAttribute("rel", "stylesheet");
-        linkElement.setAttribute("href", "stylenav.css");
+        linkElement.setAttribute("href", "src/components/nav/stylenav.css");
 
 
         shadow.appendChild(linkElement);

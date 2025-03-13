@@ -5,7 +5,6 @@ class Cartas extends HTMLElement{
         let shadow = this.attachShadow({mode: 'open'});
 
         this.divHeader = document.createElement("div")
-        // this.divHeader.innerHTML= "Revolutionizing software development with cutting-edge tools" 
         this.divContent = document.createElement("div") 
         this.divContent.classList.add("container");
         
@@ -13,7 +12,7 @@ class Cartas extends HTMLElement{
     
         const linkElement = document.createElement("link");
         linkElement.setAttribute("rel", "stylesheet");
-        linkElement.setAttribute("href", "style.css");
+        linkElement.setAttribute("href", "src/components/card/StyleCartas.css");
         
         shadow.appendChild(linkElement);
         shadow.appendChild(this.divHeader)
@@ -45,7 +44,12 @@ class Cartas extends HTMLElement{
                     <div class="category">${Element.category}</div>
                     <div class="title">${Element.title}</div>
                     <div class="description">${Element.description}</div>
+                    
+                    <div class="card-header">
+                    <img class="profile-pic" src="${Element.image2}" >
+                    <span class="author-name">${Element.name}</span>
                     <div class="date">${Element.date}</div>
+                    </div>
                 `;
     
         this.divContent.appendChild(card);
