@@ -1,0 +1,31 @@
+.pagination {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+
+.PagItem {
+    width: 40px;
+    height: 40px;
+    font-size: 0.75rem;
+    border-radius: 50%;
+    color: #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.2 ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+.PagItem:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.PagItem.active{
+    background-color: #fff;
+    color: #000;
+}
