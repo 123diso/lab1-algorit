@@ -1,16 +1,44 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lab 2</title>
+    <script src="https://kit.fontawesome.com/9526eaef04.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./src/StyleHead.css">
     <link rel="stylesheet" href="styles.css" />
-    <script src="CompComent.js"></script>
-    <script src="index.js"></script>
+    <script type="module" src="src/index.js"></script>
+    
+    <title>Document</title>
+        
+</head>
+<body style="background: #000; color: #fff;">
+    <header class="header-container">
+        <h1 class="Header">Blog</h1>
+        <p class="sub-header">Stay in the loop with the latest about our products</p>
+    </header>
+        <menu-component></menu-component>
+        <add-cart data-json="data.json"></add-cart>
+    </div>
+
+    </div>
+    <div >
+        <div>
+            <add-cart data-title ="Titulo" data-json="src/assets/infocartas.json"></add-cart>
+        
+        </div>
+    </div>
+    <div class="main-container">
+        <h2 class="sec-titulo">
+            Latest
+        </h2>
+         <main class="cards-grid" id="ContCard"></main>
+    </div>
+    
 
     <script>
         document.addEventListener("DOMContentLoaded", async () => {
-            const response = await fetch("infoComent.json");
+            const response = await fetch('./src/assets/infoComent.json');
             const info = await response.json();
             const contenedor = document.getElementById("ContCard");
 
@@ -33,16 +61,5 @@
             });
         });
     </script>
-  
-</head> 
-<body style="background: #000; color: #fff;">
-    <div class="main-container">
-        <h2 class="sec-titulo">
-            Latest
-        </h2>
-         <main class="cards-grid" id="ContCard"></main>
-    </div>
-    
-   <footer class="site-footer">
 </body>
-</html>0
+</html>

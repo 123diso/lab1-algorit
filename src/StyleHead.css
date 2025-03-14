@@ -1,0 +1,31 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff; 
+    padding: 0 80px; 
+}
+
+.header-container {
+    text-align: left;
+    padding: 20px 0;
+}
+
+.Header,
+.sub-header {
+
+    width: 100%; 
+    max-width: 900px; 
+    margin: 0 auto; 
+}
+
+.Header {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+.sub-header {
+    font-size: 1.2rem;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
