@@ -6,6 +6,7 @@
     justify-content: center;
     gap: 30px;
     margin: 0 auto;
+    margin-bottom: 30px;
     
 }
 .card {
@@ -16,8 +17,6 @@
     display: flex;
     flex-direction: column;
     background-color: rgb(245, 246, 250);
-
-
 }
 
 
@@ -33,10 +32,12 @@
     text-align: left;
 }
 
+
 .category {
     font-size: 12px;
     font-weight: bold;
     margin: 10px;
+    color: #0B0E14;;
 
 }
 
@@ -44,17 +45,19 @@
     font-size: 18px;
     font-weight: bold;
     margin: 10px;
+    color: #0B0E14;
+
 }
 
 .description {
     font-size: 14px;
-    color: gray;
+    color: #47536B;
     margin: 10px;
     
 }
 .date {
     font-size: 14px;
-    color: gray;
+    color: #0B0E14;
     margin: 10px;
     margin-left: auto;
     display: flex;
@@ -80,8 +83,7 @@
 
 .author-name {
     font-size: 14px;
-    font-weight: bold;
-    color: #333;
+    color: #0B0E14;
 }
 
 @media (max-width: 1060px) {

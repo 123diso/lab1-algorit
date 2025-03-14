@@ -21,7 +21,7 @@ plantilla.innerHTML = `
       }
 
       .categoria {
-        color: #aaa;
+        color: #0B0E14;
         font-size: 0.75rem;
         text-transform: uppercase;
         margin-bottom: 0.5rem;
@@ -31,11 +31,12 @@ plantilla.innerHTML = `
         font-size: 1.25rem;
         font-weight: bold;
         margin-bottom: 0.5rem;
+        color: #0B0E14;
       }
 
       .descripcion {
         font-size: 0.95rem;
-        color: #ccc;
+        color: #47536B;
         line-height: 1.3rem;
         flex: 1;
         margin-bottom: 0.5 rem;
@@ -52,6 +53,7 @@ plantilla.innerHTML = `
         align-items: center;
         gap: 0.5rem;
         font-size: 0.85rem;
+        color: #0B0E14;
       }
       .avatar {
         width: 32px;
@@ -61,7 +63,7 @@ plantilla.innerHTML = `
       }
       .fecha {
         font-size: 0.8rem;
-        color: #999;
+        color: #0B0E14;
       }
     </style>
     

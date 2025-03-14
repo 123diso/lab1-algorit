@@ -25,6 +25,7 @@ class Cartas extends HTMLElement{
         let url = this.getAttribute("data-json");
         
         this.divContent.innerHTML = "";
+        
 
         fetch(url)
         .then(response=>response.json())
