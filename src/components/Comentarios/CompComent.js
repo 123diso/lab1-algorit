@@ -9,14 +9,15 @@ plantilla.innerHTML = `
       }
 
       .card {
-        background-color: #1a1a1a;
+        background-color: trasnparent;
         border-radius: 8px;
-        padding: 1rem;
         color: #ddd;
         font-family: sans-serif;
         font-size: 0.70rem;
         display: flex;
         flex-direction: column;
+        row-gap: 0.80rem;
+       
       }
 
       .categoria {
@@ -38,6 +39,7 @@ plantilla.innerHTML = `
         line-height: 1.3rem;
         flex: 1;
         margin-bottom: 0.5 rem;
+         
       }
       .info {
         display: flex;
